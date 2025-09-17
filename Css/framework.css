@@ -1,0 +1,56 @@
+/* Satrt Box */
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+/* End Box */
+/* Start Padding + Margin */
+.p-20{
+    padding: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.p-10{
+    padding: 10px;
+}
+/* End Padding + Margin */
+/* Satrt Background-color */
+.bg-eee{
+    background-color: #eee;
+}
+.bg-white{
+    background-color: white;
+}
+.color-black{
+  color: black;
+}
+/* End Background-color */
+/* Strat border-ragius */
+.rad-6{
+    border-radius: 6px;
+}
+/* End border-ragius */
+/* Start Relative */
+ .p-relative{
+    position: relative;
+ }
+/* End Relative */
+/* Satrt txt-center*/
+.txt-center{
+    text-align: center;
+}
+/* End txt-center*/
+/* Satrt font-size */
+.font-size-14{
+    font-size: 15px;
+}
+/* End font-size */
