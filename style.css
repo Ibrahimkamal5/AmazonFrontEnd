@@ -114,7 +114,7 @@ header nav {
     font-weight: 600;
 }
 /* Sign In */
-button{
+.button{
     margin-left: 15px;
     padding: 10px 25px;
     border-radius: 7px;
@@ -124,11 +124,10 @@ button{
     cursor: pointer;
     border: none;
     box-shadow: 0px 5px 20px #ffd64f;
-}
-button a{
     text-decoration: none;
     color: #fff;
 }
+
 /* Sign In */
 /* End Cart */
 /* الموبايل (شاشات صغيرة أقل من 800px) */
@@ -241,8 +240,17 @@ button a{
 }
 .header-slider img{
   width: 100%;
-  mask-image: linear-gradient(to bottom, rgb(191, 187, 215) 0%, transparent 100%);
-
+  /* mask-image: linear-gradient(to bottom, rgb(191, 187, 215) 0%, transparent 100%); */
+ -webkit-mask-image: linear-gradient(to bottom,
+    rgb(191, 187, 215) 0%,   /* أعلى */
+    red 50%,                 /* منتصف */
+    transparent 100%         /* أسفل */
+);
+mask-image: linear-gradient(to bottom,
+    rgb(191, 187, 215) 0%,
+    red 50%,
+    transparent 100%
+);
 }
 
 /* End landing */
@@ -376,5 +384,14 @@ footer{
   color: #fff;
   padding: 20px;
   font-size: 20px;
+}
+@media (max-width:992px){
+  footer .box{
+    margin: 0 30px;
+    font-size: 18px;
+  }
+  footer .ibr{
+    font-size: 20px;
+  }
 }
 /* Footer */
